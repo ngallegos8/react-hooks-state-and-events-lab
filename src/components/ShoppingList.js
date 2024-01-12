@@ -8,6 +8,7 @@ function ShoppingList({ items }) {
 
   function handleChange(event) {
     setSelectedCategory(event.target.value)
+    console.log(selectedCategory)
   }
 
   const itemsToDisplay = items.filter((item) => {
